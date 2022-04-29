@@ -1,0 +1,8 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'UTM Gallary'
+sectionPagesMenu = "main"
+
+[params]
+    github = ''
+    github_issues = ''

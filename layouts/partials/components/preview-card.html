@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="ratio ratio-16x9">
+      <img src="/images/{{ .File.BaseFileName }}/{{ .Params.thumbnail }}" class="img-fluid rounded-start"> 
+    </div>
+    <div class="card-body">
+      <a href="{{ .Permalink }}">                
+        <h5 class="card-title">  {{ .Title }}</h5>
+      </a>              
+      <p class="card-text">{{ .Description }}</p>
+    </div>
+    <div class="card-footer">
+      {{ partial "components/tag-pills" . }}
+    </div>
+</div>

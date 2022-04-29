@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <main aria-role="main">
+        {{ partial "components/warning" . }}
+
+        <div class="row">
+            <div class="col-sm-6">
+
+                <h3>{{ .Title }}</h3>
+                
+                <p>{{ partial "components/tag-pills" . }}</p>
+
+                <p>{{ partial "image-page/details" . }}</p>
+
+                <p>{{ partial "image-page/download-buttons" . }}</p>
+            </div>
+
+            <div class="col-sm-6">
+                {{ partial "image-page/preview-caroussel" . }}
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            {{ partial "image-page/further-information" . }}
+        </div>
+    </main>
+{{ end }}

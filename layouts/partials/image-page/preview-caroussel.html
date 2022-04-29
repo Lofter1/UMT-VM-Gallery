@@ -1,0 +1,24 @@
+<div id="carouselExampleControls" class="carousel slide mh-25" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        {{ range $index, $value := .Params.images }}
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ $index }}" {{ if not $index }}class="active"{{ end }} aria-current="true"></button>
+        {{ end }}
+    </div>
+    <div class="carousel-inner">
+        {{ range $index, $value := .Params.images }}
+
+        <div class="carousel-item {{ if not $index }}active{{end}}">
+            <div class="ratio ratio-16x9">
+                <img class="d-block w-100" src="/images/{{ $.File.BaseFileName }}/{{ $value }}">
+            </div>
+        </div>
+
+        {{ end }}
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+</div>
