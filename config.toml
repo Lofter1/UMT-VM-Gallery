@@ -1,8 +1,8 @@
-baseURL = ''
+baseURL = 'https://Lofter1.github.io/UMT-VM-Gallery/'
 languageCode = 'en-us'
 title = 'UTM Gallary'
 sectionPagesMenu = "main"
 
 [params]
-    github = ''
-    github_issues = ''
+    github = 'https://github.com/Lofter1/UMT-VM-Gallery'
+    github_issues = 'https://github.com/Lofter1/UMT-VM-Gallery'
