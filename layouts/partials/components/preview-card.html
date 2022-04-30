@@ -1,6 +1,6 @@
 <div class="card">
     <div class="ratio ratio-16x9">
-      <img src="/images/{{ .File.BaseFileName }}/{{ .Params.thumbnail }}" class="img-fluid rounded-start"> 
+      <img src="{{ .Site.BaseURL }}/images/{{ .File.BaseFileName }}/{{ .Params.thumbnail }}" class="img-fluid rounded-start"> 
     </div>
     <div class="card-body">
       <a href="{{ .Permalink }}">                

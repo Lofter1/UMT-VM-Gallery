@@ -1,7 +1,10 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">{{ .Site.Title }}</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" 
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -10,7 +13,11 @@
                 <li class="nav-item">
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
-                <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name | title }}</a>                {{ end }}
+                <a class="nav-link {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" 
+                    href="{{ .URL }}" title="{{ .Title }}">
+                    {{ .Name | title }}
+                </a>               
+                {{ end }}
                 </li>
             </ul>
         </div>
