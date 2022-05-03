@@ -1,5 +1,5 @@
 ---
-title: "Debian 11 Minimal Amd64.utm.zip"
+title: "Debian 11 Minimal AMD64"
 thumbnail: thumbnail.png
 images:
 - thumbnail.png
