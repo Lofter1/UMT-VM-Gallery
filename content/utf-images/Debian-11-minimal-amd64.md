@@ -1,6 +1,6 @@
 ---
 title: "Debian 11 Minimal AMD64"
-thumbnail: thumbnail.png
+thumbnail: screenshot1.png
 images:
 - thumbnail.png
 - screenshot1.png
@@ -16,20 +16,21 @@ tags:
 - minimal
 - console
 - linux
-description: "This is a Debian 11 minimal VGA/console image for the x86_64/amd64 architecture. This runs on arm64 Mac M1's and could be adapted to run on native x86_64 hardware or on Linux hosts."
+description: "Debian 11 AMD64 minimal for Mac. Unofficial image"
 ---
 
 <!--
 Down here you can add further information a user might need for the image
 -->
+This is a Debian 11 minimal VGA/console image for the x86_64/amd64 architecture. This runs on arm64 Mac M1's and could be adapted to run on native x86_64 hardware or on Linux hosts.
 
-Architecture: x86_64 / amd64
-Memory: 1024 MB
-Disk: 1.91 GB
-Display: VGA+Console
-SPICE tools: unknown
-Username: debianx64
-Password: debian
+- Architecture: x86_64 / amd64
+- Memory: 1024 MB
+- Disk: 1.91 GB
+- Display: VGA+Console
+- SPICE tools: unknown
+- Username: debianx64
+- Password: debian
 
 Unzip the zip archive, and then import the utm VM into the UTM app by clicking the + button at the top, and then click "open", then navigate to the debian-11-minimUTM package.
 
