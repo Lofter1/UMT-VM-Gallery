@@ -2,8 +2,8 @@
 title: "Debian 11 Minimal AMD64"
 thumbnail: screenshot1.png
 images:
-- thumbnail.png
 - screenshot1.png
+- thumbnail.png
 link_to_image: https://github.com/jamesmortensen/virtual-machine-releases/releases/download/debian-11-minimal-amd64-v1.0/Debian-11-minimal-amd64.utm.zip
 link_to_website: https://github.com/jamesmortensen/virtual-machine-releases/releases/tag/debian-11-minimal-amd64-v1.0
 spice_tools: false
