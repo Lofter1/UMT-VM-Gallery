@@ -1,5 +1,7 @@
 # UTM Image Repository
 
+[![github pages](https://github.com/Lofter1/UMT-VM-Gallery/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/Lofter1/UMT-VM-Gallery/actions/workflows/gh-pages.yml)
+
 A static web page built with [Hugo](https://gohugo.io) that collects UTM Images.
 
 > DISCLAIMER  VMs on this site are user produced content. Any use of the provided files is at your own risk. If you have concerns about an image, please open an issue.
